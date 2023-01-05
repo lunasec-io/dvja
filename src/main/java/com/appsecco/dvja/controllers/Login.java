@@ -5,7 +5,6 @@ import com.appsecco.dvja.services.UserAuthenticationService;
 import org.apache.commons.lang.StringUtils;
 
 public class Login extends BaseController {
-
     private UserAuthenticationService userAuthenticationService;
 
     private String login;

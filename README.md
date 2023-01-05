@@ -1,5 +1,7 @@
 # Damn Vulnerable Java Application
 
+An intentionally vulnerable web application to demonstrate how security vulnerabilities in a Java web app can be exploited.
+
 ## Quick Start
 
 Install Docker and Docker Compose.

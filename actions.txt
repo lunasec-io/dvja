@@ -1,0 +1,2 @@
+trace_args REGEXP(org.hibernate.*) createQuery
+trace_args java.lang.Runtime exec

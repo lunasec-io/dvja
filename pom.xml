@@ -8,6 +8,14 @@
     <packaging>war</packaging>
     <name>dvja</name>
 
+    <repositories>
+         <repository>
+             <id>ProjectRepo</id>
+             <name>ProjectRepo</name>
+             <url>file://${project.basedir}/libs</url>
+         </repository>
+    </repositories>
+
     <properties>
         <struts2.version>2.3.30</struts2.version>
         <log4j2.version>2.3</log4j2.version>
@@ -16,7 +24,6 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-core</artifactId>
